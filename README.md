@@ -6,3 +6,4 @@
   - find max of 3 nos
   - find nth fibonacci no
   - find occurance of x in a integer n
+  - reverse an integer
