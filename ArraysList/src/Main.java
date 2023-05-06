@@ -1,5 +1,3 @@
-package com.Arrays;
-
 import java.util.Arrays;
 
 public class Main {
@@ -22,7 +20,11 @@ public class Main {
         // another way to initialize array
         int[] newNos = {1, 2, 3, 4, 5, 6};
         System.out.println(Arrays.toString(newNos));
+
+        String[] strings = new String[4];
+        System.out.println(Arrays.toString(strings));
     }
+
     public static void main(String[] args) {
         basicArray();
     }
