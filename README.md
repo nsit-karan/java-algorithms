@@ -9,3 +9,4 @@
   - reverse an integer
   - check if the no is prime or not
   - conditionals, switch, var args
+  - armstrong no (sum of cubes of all digits == n)
