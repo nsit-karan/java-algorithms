@@ -7,3 +7,5 @@
   - find nth fibonacci no
   - find occurance of x in a integer n
   - reverse an integer
+  - check if the no is prime or not
+  - conditionals, switch, var args
