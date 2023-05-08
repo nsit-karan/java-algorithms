@@ -27,6 +27,7 @@ public class LinearSearch {
 
         return -1;
     }
+
     public static void main(String[] args) {
         System.out.println("Check for presence of element in array");
         int[] arr = {1, 2, 333, 555, 666, 67, 2323, 11, 32};
