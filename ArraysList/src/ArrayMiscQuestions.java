@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class ArrayMiscQuestions {
 
     public static int maxArray(int[] arr) {
@@ -28,11 +31,22 @@ public class ArrayMiscQuestions {
      * @param arr
      */
     public static void reverseArray(int[] arr) {
-        
+        int start = 0;
+        int end = arr.length - 1;
+
+        // keep swapping till start and end cross each other
+        while (start < end) {
+            swap(arr, start, end);
+            start++;
+            end--;
+        }
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,555,888,555,232};
+        int[] arr = {1, 2, 3, 4, 555, 888, 666, 777};
+        System.out.println("Original array is : " + Arrays.toString(arr));
         System.out.println("Max of the array is : " + maxArray(arr));
+        reverseArray(arr);
+        System.out.println("Array after reversing is :" + Arrays.toString(arr));
     }
 }
