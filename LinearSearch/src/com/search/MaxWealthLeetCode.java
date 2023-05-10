@@ -10,6 +10,8 @@ public class MaxWealthLeetCode {
                 {11111,2,3,4,5}
         };
         System.out.println(maximumWealth(accounts));
+        System.out.println(maximumWealthv2(accounts));
+
         System.out.println(maximumWealthTweaked(accounts));
 
     }
@@ -33,6 +35,26 @@ public class MaxWealthLeetCode {
 
             if (currentCustSum > maxCustSum) {
                 maxCustSum = currentCustSum;
+            }
+        }
+
+        return maxCustSum;
+    }
+
+    /**
+     *  is more optimal in terms of memory compared to the previous version - no clue why !!
+     */
+    public static int maximumWealthv2(int[][] accounts) {
+
+        int maxCustSum = 0;
+        for (int person = 0; person < accounts.length; person++) {
+            int currentPerson = 0;
+            for (int account = 0; account < accounts[person].length; account++) {
+                currentPerson += accounts[person][account];
+            }
+
+            if (maxCustSum < currentPerson) {
+                maxCustSum = currentPerson;
             }
         }
 
