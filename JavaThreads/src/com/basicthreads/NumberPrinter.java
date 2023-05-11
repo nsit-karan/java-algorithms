@@ -9,6 +9,6 @@ public class NumberPrinter implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("I am printing : " + this.no);
+        System.out.println("I am printing : " + this.no + "," + Thread.currentThread().getName());
     }
 }
