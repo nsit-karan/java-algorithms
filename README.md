@@ -15,6 +15,9 @@
   - lists, arraylists, multi-d arrays, reverse a list, find max
   - leetcode 1295 - find nos with even digits in an array
 
+- search
+ - linear search, binary search
+
 - threads
   - basic code to print100 nos all in their own threads
   - threadpool - print100 nos constrained by the pool size
