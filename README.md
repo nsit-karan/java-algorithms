@@ -16,7 +16,7 @@
   - leetcode 1295 - find nos with even digits in an array
 
 - search
- - linear search, binary search
+  - linear search, binary search, order agnostic bin search
 
 - threads
   - basic code to print100 nos all in their own threads
