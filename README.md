@@ -1,4 +1,4 @@
-# Repo for all things java , data structures and algorithms
+# All things java , data structures and algorithms
 
 - Java basics
   - Running code using the terminal covering custom class path
