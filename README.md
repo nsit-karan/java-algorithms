@@ -18,6 +18,9 @@
 - search
   - linear search, binary search, order agnostic bin search
 
+- binary search
+  - find ceiling for a no in an array
+
 - threads
   - basic code to print100 nos all in their own threads
   - threadpool - print100 nos constrained by the pool size
