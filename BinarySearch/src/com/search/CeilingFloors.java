@@ -38,6 +38,19 @@ public class CeilingFloors {
         return arr[start];
 
     }
+
+    /**
+     * Similar approach as above. Find the largest number in the array
+     * which is "just" smaller than the target
+     * 
+     * @param arr
+     * @param target
+     * @return
+     */
+    public static int findFloorInArray(int[] arr, int target) {
+
+    }
+
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
         System.out.println("ceiling is " + findCeliingInArray(arr, 15));
