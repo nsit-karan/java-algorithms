@@ -14,7 +14,12 @@ public class LeetCode754 {
      * Approach :
      * - leverage the binary search logic for finding ceiling of a no
      * - caveats being that if no is not found, return the first element
-     * 
+     *
+     * alternate - same approach as above. just to handle wrap-around,
+     *             the final index will be start % arr.length.
+     *             This ensures that if there is no element greater than
+     *             target, it will wrap around and the final index will be
+     *             0 - the first element
      * @param letters
      * @param target
      * @return
