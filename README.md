@@ -3,8 +3,8 @@
 - Java basics
   - Running code using the terminal covering custom class path
   - Read and dump command line arguments
-  - find max of 3 nos
-  - find nth fibonacci no
+  - max of 3 nos
+  - nth fibonacci no, factorial
   - find occurance of x in a integer n
   - reverse an integer
   - check if the no is prime or not
