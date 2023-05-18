@@ -14,6 +14,7 @@
 - array, arraylists, 2d array
   - lists, arraylists, multi-d arrays, reverse a list, find max
   - leetcode 1295 - find nos with even digits in an array
+  = leetcode 1470 - shuffle/rearrange a array of size 2n
 
 - search
   - linear search, binary search, order agnostic bin search
