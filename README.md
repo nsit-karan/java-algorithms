@@ -23,6 +23,7 @@
   - find ceiling, floor for a no in an array
   - leetcode754 - find celing in char array
   - leetcode34 - find (start, end) in sorted array for target
+  - binSearch on an infinite sorted array (amz)
 
 - threads
   - basic code to print100 nos all in their own threads
