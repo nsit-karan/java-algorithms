@@ -6,8 +6,6 @@ public class LeetCode1470 {
      * Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
      * Return the array in the form [x1,y1,x2,y2,...,xn,yn].
      *
-     * TODO - optimize the memory usage and avoid using a new array.
-     * 
      * @param nums
      * @param n
      * @return
