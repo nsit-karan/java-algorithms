@@ -6,7 +6,7 @@
   - max of 3 nos
   - nth fibonacci no, factorial
   - find occurance of x in a integer n
-  - reverse an integer
+  - reverse an integer, isPalindrome (leverage reverseInteger)
   - check if the no is prime or not
   - conditionals, switch, var args
   - armstrong no (sum of cubes of all digits == n)
