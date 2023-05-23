@@ -24,7 +24,7 @@
   - leetcode754 - find celing in char array
   - leetcode34 - find (start, end) in sorted array for target
   - binSearch on an infinite sorted array (amz)
-  - search for an element in mountain array (increases , then decreases)
+  - leetCode852 -  find index of peak in mountain array
 
 - threads
   - basic code to print100 nos all in their own threads
